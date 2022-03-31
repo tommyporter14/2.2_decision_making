@@ -1,0 +1,12 @@
+import java.util.Scanner;//import scanner
+public class decision_making {
+
+	public static void main(String[] args) {
+
+		Scanner scnr = new Scanner(System.in);//assigning scnr as user input
+		
+		
+		scnr.close();//scanner close
+	}
+
+}

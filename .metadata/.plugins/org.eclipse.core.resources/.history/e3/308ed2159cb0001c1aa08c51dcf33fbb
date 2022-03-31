@@ -1,0 +1,22 @@
+import java.util.Scanner;//import scanner
+public class decision_making {
+
+	public static void main(String[] args) {
+
+		int userInput;
+		
+		Scanner scnr = new Scanner(System.in);//assigning scnr as user input
+		
+		System.out.println("Enter a number between 1 and 100: ");//ask user to respond heads or tails
+		userInput = scnr.nextInt();
+		
+		if (userInput % 2 != 0)
+			if (userInput >= 60)
+			{
+				System.out.println(userInput + ", Odd and over 60");
+			}
+		
+		scnr.close();//scanner close
+	}
+
+}
